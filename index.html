@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fontawesome links         -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- nav start -->
+    
+    <nav class="navbar navbar-expand-lg bg-dark px-2 sticky-top" ;>
+        <div class="container ">
+            <a class="navbar-brand" style="-webkit-text-fill-color: hotpink;" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon " style="background-color: hotpink;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="-webkit-text-fill-color: hotpink;" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="-webkit-text-fill-color: hotpink;" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="-webkit-text-fill-color: hotpink;" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="-webkit-text-fill-color: hotpink;" href="#cv">CVform</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- nav end  -->
+    <!-- home start  -->
+    <section class="home" id="home">
+        <div class="container-fluid shadow-lg p-4 vh-75" style="background-color: lightpink;">
+            
+            <div class="row min-vh-75 align-items-center ">
+                    <div class="col-md-6 mt-1">
+                        <div class="text-center">
+                            <img src="./photo/pf3.jpg" width="250px" class="rounded rounded-5" height="250px" alt="">
+                        </div>
+                   </div>
+
+                  <div class="col-md-6 order-md-first mt-md-0">
+                        <div class="text-center">
+                           <p class="text-muted mt-4 mb-2" >Hello, I'm </p>
+                           <h1 class="fw-bold"> Htet Htet Zin</h1>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, harum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod omnis quaerat sapiente eius perspiciatis? Sunt possimus alias sit quia ex placeat a dignissimos quas esse.</p>
+                        </div>
+                 </div>
+             
+            </div>
+            <div class="d-flex justify-content-start mt-5 mb-0">
+            
+                <button type="button" class="btn p-2 px-5 btn-lg bg-black justify-item-center"
+                    style="-webkit-text-fill-color: hotpink;" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@mdo">My Project</button>
+            
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header" style="background-color: lightpink; -webkit-text-fill-color: black;">
+                                <h1 class="modal-title fs-5" style="background-color: lightpink; -webkit-text-fill-color: black;"
+                                    id="exampleModalLabel">My Projects</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body bg-black">
+                                <div class="row justify-content-evenly">
+                                    <div class="col">
+                                        <div class="card" style="background-color: lightpink; ">
+                                            <img src="./photo/pj1.png" class="card-img-top" style="height: 150px;" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Store</h5>
+                                                <p class="card-text">HTML/CSS</p>
+                                                <a href="#" class="btn bg-black" style="-webkit-text-fill-color: hotpink;"> View
+                                                    More</a>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+                                    <div class="col">
+                                        <div class="card" style="background-color: lightpink;">
+                                            <img src="./photo/pj2.png" class="card-img-top" style="height: 150px;" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Cafe</h5>
+                                                <p class="card-text">HTML/CSS.</p>
+                                                <a href="#" class="btn bg-black" style="-webkit-text-fill-color: hotpink;">View
+                                                    More</a>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                                <div class="row mt-3 justify-content-evenly">
+                                    <div class="col-6 col-xs-6">
+                                        <div class="card " style="background-color: lightpink;">
+                                            <img src="./photo/pj3.png" class="card-img-top" style="height: 150px;" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Movie</h5>
+                                                <p class="card-text">HTML/CSS/JS</p>
+                                                <a href="#" class="btn bg-black" style="-webkit-text-fill-color: hotpink;">View
+                                                    More</a>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+                                    <div class="col-6 col-xs-6">
+                                        <div class="card" style="background-color: lightpink;">
+                                            <img src="./photo/pj4.jpg" class="card-img-top" style="height: 150px;" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Food</h5>
+                                                <p class="card-text">BOOTSTRAP/JS</p>
+                                                <a href="#" class="btn bg-black" style="-webkit-text-fill-color: hotpink;">View
+                                                    More</a>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                                <div class="row mt-3 justify-content-evenly">
+                                    <div class="col-6 col-xs-6">
+                                        <div class="card " style="background-color: lightpink;">
+                                            <img src="./photo/pj1.png" class="card-img-top" style="height: 150px;" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Book</h5>
+                                                <p class="card-text">LALAVAL</p>
+                                                <a href="#" class="btn bg-black" style="-webkit-text-fill-color: hotpink;">View
+                                                    More</a>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+                                    <div class="col-6 col-xs-6">
+                                        <div class="card" style="background-color: lightpink;">
+                                            <img src="./photo/pj2.png" class="card-img-top" style="height: 150px;" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Delivery</h5>
+                                                <p class="card-text">PHP</p>
+                                                <a href="#" class="btn bg-black" style="-webkit-text-fill-color: hotpink;">View
+                                                    More</a>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+                                </div>
+            
+            
+            
+                            </div>
+                            <div class="modal-footer" style="background-color: black;">
+                                <button type="button" class="btn"
+                                    style="background-color: lightpink; -webkit-text-fill-color: black;"
+                                    data-bs-dismiss="modal">Home</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+    </section>
+     <!-- about s -->
+    <section class="about" id="about">
+        <div class="container-fluid p-4 " style="background-color: lightpink">
+        <h1 class="mt-3 fw-bold shadow-lg" style="text-align: center;">About me</h1>
+        
+        </div>
+        <!-- skill  -->
+        
+            <div class="container-fluid p-4" style="background-color: lightpink">
+               
+                <h4 class="mt-3 mb-3 fw-light d-flex" style=" font-style: italic; text-align: center;">My Skills</h4>
+                <div class="row mt-3">
+            
+                    <div class="progress ms-1 w-75 col-11" style="background-color:  lightpink;" role="progressbar"
+                        aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated me-5"
+                            style="width: 75%; background-color: black; text-decoration-color: black;">80%</div>
+            
+                    </div>
+                    <div class="col-xs-1 col-1  text-dark fw-bold">HTML</div>
+            
+                </div>
+                <div class="row mt-3">
+                    <div class="progress ms-1 mt-2 col-md-9 w-75" style="background-color:lightpink;" role="progressbar"
+                        aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated me-5"
+                            style="width: 65%; background-color:black; text-decoration-color: black;">65%</div>
+            
+                    </div>
+                    <div class="col-xs-1 col-1 me-5 text-dark fw-bold">CSS</div>
+                </div>
+                <div class="row mt-3 me-2">
+            
+                    <div class="progress ms-1 w-75 mt-2 col-md-7" style="background-color:lightpink;" role="progressbar"
+                        aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated me-5"
+                            style="width: 90%; background-color:black; text-decoration-color: black;">90%</div>
+                    </div>
+                    <div class="col-xs-1 me-2 col-1 text-dark fw-bold">BOOTSTRAP</div>
+                </div>
+            
+                <div class="row mt-3">
+                    <div class="progress ms-1 w-75 mt-2 col-md-9" style="background-color: lightpink;" role="progressbar"
+                        aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated me-5"
+                            style="width: 10%; background-color:black; text-decoration-color: black;">10%</div>
+                    </div>
+                    <div class="col-xs-1 col-1 text-dark fw-bold">HTML</div>
+                </div>
+            
+                <div class="row mt-3">
+                    <div class="progress ms-1 w-75 mt-2 col-md-9" style="background-color: lightpink;" role="progressbar"
+                        aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated me-5"
+                            style="width: 20%; background-color:black; text-decoration-color: black;">20%</div>
+                    </div>
+                    <div class="col-xs-1 col-1 text-dark fw-bold">JAVA</div>
+                </div>
+                </div>
+            </div>
+        
+     </section>    
+        <!-- contact  -->
+    <section class="contact shadow-lg" id="contact">
+        <div class="containerfluid p-3 v-md-75" style="background-color: lightpink">
+        
+        <div class="shadow-lg p-3">
+        
+        <div class="row mt-3 mb-3 text-center">
+            <h4 class="mt-2 mb-3" style="font-style: italic;">Contact</h4>
+            <div class="col">
+                
+                <i class="fa-brands fa-1x fa-instagram">
+                    <a href="https://getbootstrap.com/docs/5.3/components/card/" style="font-size: x-small;"  class="link-dark text-decoration-none">htethtetthaeaung</a>
+
+                </i>
+                <div class="mt-3 pe-3">
+                    <i class="fa-brands fa-1x fa-facebook">
+                        <a href="https://getbootstrap.com/docs/5.3/components/card/" style="font-size: x-small;" class="link-dark text-decoration-none">htethtetzin</a>
+                     </i>
+                </div>
+                <div class="mt-3 pe-3">
+                    <div class="mt-3 pe-3">
+                        <i class="fa-brands fa-square-twitter">
+                            <a href="https://getbootstrap.com/docs/5.3/components/card/" style="font-size: x-small;" class="link-dark text-decoration-none">htetzin</a>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col">
+                
+                    <i class="fa-regular fa-envelope">
+                        <a href="https://getbootstrap.com/docs/5.3/components/card/" style="font-size: x-small;"
+                            class="link-dark text-decoration-none">htetzin@gmail.com</a>
+                    </i>
+                
+                
+                <div class="mt-3 pe-3">
+                    <i class="fa-solid fa-phone">
+                        <a href="https://getbootstrap.com/docs/5.3/components/card/" style="font-size: x-small;"
+                            class="link-dark text-decoration-none">+959 445049996</a>
+                    </i>
+                    
+                </div>
+                <div class="mt-3 pe-3">
+                    <div class="mt-3 pe-3">
+                        <i class="fa-regular fa-address-book">
+                            <a href="https://getbootstrap.com/docs/5.3/components/card/" style="font-size: x-small;"
+                                class="link-dark text-decoration-none">Pyay,Bago</a>
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    </div>
+    <!-- home end  -->
+</body>
+    <!-- footer  -->
+   <div class="container-fluid p-4 v-md-75" style="background-color: lightpink">
+    <div class="row">
+        <div class="col fw-bold text-center"> Tell Me </div>
+    </div>
+    <div class="row mt-3 mb-3">
+        
+        <div class="col p-2">
+            <div class="box rounded-4 p-2 shadow-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis
+                vitae amet architecto dignissimos eveniet voluptate quod, labore explicabo illum.</div>
+        </div>
+        <div class="col p-2">
+            <div class="box rounded-4 p-2 shadow-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis
+                vitae amet architecto dignissimos eveniet voluptate quod, labore explicabo illum.</div>
+        </div>
+        <div class="col p-2">
+            <div class="box rounded-4 p-2 shadow-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis
+                vitae amet architecto dignissimos eveniet voluptate quod, labore explicabo illum.</div>
+        </div>
+    </div>
+   </div>
+    <!-- end  -->
+    <div class="container-fluid p-4 bg-black v-md-75" style="-webkit-text-fill-color: hotpink;">
+        <div class="text-center">
+            <h3 class="fw-bold" style="-webkit-text-fill-color: hotpink;">Designed By</h3>
+            <h5 class="mb-5">Htet Htet Zin</h5>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p style="-webkit-text-fill-color:lightpink;">November - 11 - 2023</p>
+            </div>
+            <div class="col">
+                <p style="-webkit-text-fill-color: lightpink; text-align: end;">copyright</p>
+            </div>
+        </div>
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script>const exampleModal = document.getElementById('exampleModal')
+        if (exampleModal) {
+            exampleModal.addEventListener('show.bs.modal', event => {
+                // Button that triggered the modal
+                const button = event.relatedTarget
+                // Extract info from data-bs-* attributes
+                const recipient = button.getAttribute('data-bs-whatever')
+                // If necessary, you could initiate an Ajax request here
+                // and then do the updating in a callback.
+
+                // Update the modal's content.
+                const modalTitle = exampleModal.querySelector('.modal-title')
+                const modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+                modalTitle.textContent = `My Projects`
+                modalBodyInput.value = recipient
+            })
+        }</script>
+</html>
